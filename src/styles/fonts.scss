@@ -1,0 +1,57 @@
+@import './colors.scss';
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+
+.cn-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cn-subtitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cn-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: $neutral-40;
+}
+
+.cn-small-body {
+  font-size: 14px;
+}
+
+.cn-body {
+  font-size: 16px;
+}
+
+.cn-link {
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+
+  &:hover { font-weight: 500; }
+}
+
+@media (min-width: 768px) {  
+  .cn-title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .cn-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .cn-label {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .cn-link {
+    font-size: 16px;
+  }
+}
