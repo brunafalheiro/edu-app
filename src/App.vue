@@ -1,26 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="flex">
+    <div class="full-width">
+      <EduButton title="Voltar" :onclick="goBack" />
+      
+      <div class="main-content">
+        <router-view></router-view>
+      </div>
+    </div>
+    <div class="sidebar full-height pr-48 pl-48">
+      <MenuCard title="title 1"/>
+      <MenuCard title="title 2"/>
+      <MenuCard title="title 3"/>
+    </div>
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+  import router from './router/router';
+  import MenuCard from './components/MenuCard/MenuCard.vue';
+  import EduButton from './components/EduButton/EduButton.vue';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  const goBack = () => { router.back(); }
+
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="scss">@import 'App.scss';</style>
