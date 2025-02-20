@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "Introdução às Árvores Binárias",
+    "description": "Entenda o conceito de árvores binárias, sua estrutura e aplicações.",
+    "icon": "tree_icon1"
+  },
+  {
+    "id": "2",
+    "title": "Percursos em Árvores Binárias",
+    "description": "Aprenda sobre os tipos de percursos: pré-ordem, em-ordem e pós-ordem.",
+    "icon": "tree_icon2"
+  },
+  {
+    "id": "3",
+    "title": "Operações Básicas em Árvores Binárias",
+    "description": "Explore operações como inserção, remoção e busca em árvores binárias.",
+    "icon": "tree_icon3"
+  },
+  {
+    "id": "4",
+    "title": "Árvores Binárias de Busca (BST)",
+    "description": "Descubra como as árvores binárias de busca organizam dados de forma eficiente.",
+    "icon": "tree_icon4"
+  },
+  {
+    "id": "5",
+    "title": "Balanceamento de Árvores Binárias",
+    "description": "Saiba por que o balanceamento é importante e como melhorar o desempenho.",
+    "icon": "tree_icon5"
+  },
+  {
+    "id": "6",
+    "title": "Árvores AVL",
+    "description": "Conheça as árvores AVL e como elas mantêm o balanceamento automaticamente.",
+    "icon": "tree_icon6"
+  },
+  {
+    "id": "7",
+    "title": "Árvores Vermelho-Preto",
+    "description": "Entenda como funciona o balanceamento dinâmico nas árvores vermelho-preto.",
+    "icon": "tree_icon7"
+  },
+  {
+    "id": "8",
+    "title": "Casos de Uso e Aplicações",
+    "description": "Veja como árvores binárias são usadas em bancos de dados, IA e mais.",
+    "icon": "tree_icon8"
+  }
+]
