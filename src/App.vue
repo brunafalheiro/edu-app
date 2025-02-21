@@ -6,8 +6,8 @@
       </div>
     </div>
     <div class="sidebar full-height pr-48 pl-48">
-      <MenuCard title="title 1"/>
-      <MenuCard title="title 2"/>
+      <MenuCard title="Aulas" routeToRedirect="home"/>
+      <MenuCard title="Árvores Binárias" routeToRedirect="treeVisualizer"/>
       <MenuCard title="title 3"/>
     </div>
   </div>
