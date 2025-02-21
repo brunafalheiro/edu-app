@@ -2,6 +2,8 @@
   border: 2px solid $neutral-10;
   border-radius: 26px;
 
+  &.selected { background-color: pink; }
+
   .icon {
     height: 24px;
     width: 24px;
