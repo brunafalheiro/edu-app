@@ -2,9 +2,8 @@
   <div class="lesson-card position-relative flex flex-column space-between pt-36 pr-24 pb-36 pl-24">
     <div>
       <div class="icon position-absolute"></div>
-      <p class="title">{{ title }}</p>
+      <p class="title mb-16">{{ title }}</p>
       <p class="description">{{ description }}</p>
-      <p class="id">{{ id }}</p>
     </div>
     <EduButton :title="'Começar'" :onclick="redirectToLesson"/>
   </div>
