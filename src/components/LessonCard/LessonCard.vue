@@ -1,7 +1,7 @@
 <template>
   <div class="lesson-card position-relative flex flex-column space-between pt-36 pr-24 pb-36 pl-24">
+    <div class="icon position-absolute"></div>
     <div>
-      <div class="icon position-absolute"></div>
       <p class="title mb-16">{{ title }}</p>
       <p class="description">{{ description }}</p>
     </div>
