@@ -8,7 +8,7 @@
     
   </div>
 
-  <div class="vasco">
+  <div class="mainContainer">
     <div class="container">
       <div class="row">
         <div class="tree">
