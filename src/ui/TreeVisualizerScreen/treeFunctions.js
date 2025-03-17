@@ -38,12 +38,11 @@ class TreeFunctions {
 
     // Highlight the node being visited
     tree.isBeingVisited = true;
-    console.log("visiting", tree.value);
     await new Promise(resolve => setTimeout(resolve, 1000));
 
     if (tree.value === value) {
       tree.isBeingVisited = false;
-      tree.found = true;
+      tree.found = true; 
       return tree;
     }
 
