@@ -1,14 +1,19 @@
 <template>
-  <div class="full-width pt-48 pr-48 pl-48 pb-48">
-    <EduButton title="Voltar" :onclick="goBack" />
+  <div class="pt-48 pr-48 pl-48 pb-48">
+    <EduButton title="Voltar" :onclick="goBack" class="back-btn mb-48"/>
     
-    <div v-if="lesson">
-      <h1>{{ lesson.title }}</h1>
-      <p class="mb-20">{{ lesson.description }}</p>
-      <div v-for="(item, index) in lesson.content" :key="index" class="flex full-width">
-        <p v-if="item.type === 'text'" class="mt-20">{{ item.value }}</p>
-        <img v-else-if="item.type === 'image'" :src="item.value" alt="Imagem da lição" class="mx-auto mt-20"/>
-        <video v-else-if="item.type === 'video'" :src="item.value" controls class="mt-20"></video>
+    <div class="flex flex-column align-center full-width">
+      <div class="lesson-content">
+      
+        <div v-if="lesson">
+          <h1>{{ lesson.title }}</h1>
+          <p class="mb-20">{{ lesson.description }}</p>
+          <div v-for="(item, index) in lesson.content" :key="index" class="flex full-width">
+            <p v-if="item.type === 'text'" class="mt-20">{{ item.value }}</p>
+            <img v-else-if="item.type === 'image'" :src="item.value" alt="Imagem da lição" class="mx-auto mt-20"/>
+            <video v-else-if="item.type === 'video'" :src="item.value" controls class="mt-20"></video>
+          </div>
+        </div>
       </div>
     </div>
   </div>
